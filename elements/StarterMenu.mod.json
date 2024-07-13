@@ -1,0 +1,660 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_17.png",
+          "use1Xscale": false,
+          "name": "pixil-frame-0_17.png",
+          "x": 94,
+          "y": 4
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "name",
+          "x": 168,
+          "y": 21
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "integrity.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "INTEGRITY"
+          },
+          "name": "integrity.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "perseverance.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PERSEVERANCE"
+          },
+          "name": "perseverance.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "DETERMINATION"
+          },
+          "name": "pixil-frame-0_1.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "JUSTICE"
+          },
+          "name": "pixil-frame-0_2.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "KINDNESS"
+          },
+          "name": "pixil-frame-0_3.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "BRAVERY"
+          },
+          "name": "pixil-frame-0_4.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PATIENCE"
+          },
+          "name": "pixil-frame-0_5.png",
+          "x": 213,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "SoulRight"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 240,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "SoulLeft"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 172,
+          "y": 96
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_18.png",
+          "use1Xscale": false,
+          "name": "pixil-frame-0_18.png",
+          "x": 227,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_18.png",
+          "use1Xscale": false,
+          "name": "pixil-frame-0_18.png",
+          "x": 87,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "PACIÊNCIA",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PATIENCE"
+          },
+          "name": "PACIÊNCIA",
+          "x": 105,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Pessoas com essa alma costumam a ser calmos e",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PATIENCE"
+          },
+          "name": "Pessoas com essa alma costumam a ser calmos e",
+          "x": 99,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "pensativos, são ótimas em esperar e são ótimas ",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PATIENCE"
+          },
+          "name": "pensativos, são ótimas em esperar e são ótimas ",
+          "x": 99,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "em aprender por terem paciência pra isso.",
+          "color": {
+            "value": -10027009,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PATIENCE"
+          },
+          "name": "em aprender por terem paciência pra isso.",
+          "x": 99,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BRAVURA",
+          "color": {
+            "value": -26317,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BRAVERY"
+          },
+          "name": "BRAVURA",
+          "x": 105,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Aqueles que possuem bravura lutam pelos seus",
+          "color": {
+            "value": -26317,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BRAVERY"
+          },
+          "name": "Aqueles que possuem bravura lutam pelos seus",
+          "x": 99,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ideais e amigos, não perecendo no caminho e",
+          "color": {
+            "value": -26317,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BRAVERY"
+          },
+          "name": "ideais e amigos, não perecendo no caminho e",
+          "x": 99,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "agindo mesmo com o medo.",
+          "color": {
+            "value": -26317,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BRAVERY"
+          },
+          "name": "agindo mesmo com o medo.",
+          "x": 99,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "INTEGRIDADE",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "INTEGRITY"
+          },
+          "name": "INTEGRIDADE",
+          "x": 104,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ser honesto consigo e com o mundo te mantém",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "INTEGRITY"
+          },
+          "name": "Ser honesto consigo e com o mundo te mantém",
+          "x": 99,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "íntegro e inabalável podendo resistir ",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "INTEGRITY"
+          },
+          "name": "íntegro e inabalável podendo resistir ",
+          "x": 98,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "as maiores pressões.  ",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "INTEGRITY"
+          },
+          "name": "as maiores pressões.  ",
+          "x": 98,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "PERSEVERANÇA",
+          "color": {
+            "value": -6750004,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PERSEVERANCE"
+          },
+          "name": "PERSEVERANÇA",
+          "x": 104,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Indivíduos com essa alma são persistentes sobre ",
+          "color": {
+            "value": -6750004,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PERSEVERANCE"
+          },
+          "name": "Indivíduos com essa alma são persistentes sobre ",
+          "x": 98,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "sua moral e seus valores, não desistindo até",
+          "color": {
+            "value": -6750004,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PERSEVERANCE"
+          },
+          "name": "sua moral e seus valores, não desistindo até",
+          "x": 99,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "que sua alma pare de ressonar.",
+          "color": {
+            "value": -6750004,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PERSEVERANCE"
+          },
+          "name": "que sua alma pare de ressonar.",
+          "x": 99,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BONDADE",
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KINDNESS"
+          },
+          "name": "BONDADE",
+          "x": 105,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Esses humanos são demasiados gentis e piedosos,",
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KINDNESS"
+          },
+          "name": "Esses humanos são demasiados gentis e piedosos,",
+          "x": 98,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "são muito comuns como suporte para aliados",
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KINDNESS"
+          },
+          "name": "são muito comuns como suporte para aliados",
+          "x": 98,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "mas também são extremamente resilientes.",
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KINDNESS"
+          },
+          "name": "mas também são extremamente resilientes.",
+          "x": 99,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "JUSTIÇA",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JUSTICE"
+          },
+          "name": "JUSTIÇA",
+          "x": 102,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Os que carregam a justiça com sigo tendem a",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JUSTICE"
+          },
+          "name": "Os que carregam a justiça com sigo tendem a",
+          "x": 98,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "seguir fortemente sua moralidade e odiar ver",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JUSTICE"
+          },
+          "name": "seguir fortemente sua moralidade e odiar ver",
+          "x": 98,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "situações de pura injustiça e desigualdade.",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JUSTICE"
+          },
+          "name": "situações de pura injustiça e desigualdade.",
+          "x": 98,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "DETERMINAÇÃO",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DETERMINATION"
+          },
+          "name": "DETERMINAÇÃO",
+          "x": 103,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Você escolhe seu caminho, não estando preso as",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DETERMINATION"
+          },
+          "name": "Você escolhe seu caminho, não estando preso as",
+          "x": 98,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "correntes do destino, nada pode te parar quando ",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DETERMINATION"
+          },
+          "name": "correntes do destino, nada pode te parar quando ",
+          "x": 98,
+          "y": 162
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "você está",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DETERMINATION"
+          },
+          "name": "você está",
+          "x": 98,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "DETERMINADO",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DETERMINATION"
+          },
+          "name": "DETERMINADO",
+          "x": 188,
+          "y": 189
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "CONFIRMAR",
+          "onClick": {
+            "name": "CONFIRM"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "CONFIRMAR",
+          "x": 181,
+          "y": 209
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

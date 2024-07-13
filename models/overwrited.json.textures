@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "overwritebacki",
+        "missing": "overwritefront"
+      },
+      "name": "default"
+    }
+  }
+}

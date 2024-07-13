@@ -1,0 +1,1628 @@
+{
+  "mod_elements": [
+    {
+      "name": "OpenMenu",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_menu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "OpenMenuKeybind",
+      "type": "keybind",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_menu_keybind",
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "StatusMenu",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "status_menu",
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "StatusShow",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "status_show",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "StatusShow2",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "status_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "Exp",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/System/LOVE/EXP"
+    },
+    {
+      "name": "StatusShow3",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "status_show_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "StatutsShow4",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statuts_show_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "SoulShow",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_show",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/System/Menu/SoulMenu"
+    },
+    {
+      "name": "SoulShow2",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_show_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu/SoulMenu"
+    },
+    {
+      "name": "STR1",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_1",
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "STR2",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_2",
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "STR3",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_3",
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "STR4",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_4",
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "STR5",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_5",
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "STR6",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_6",
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "UnderyTake",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undery_take",
+      "path": "~/System/LOVE/STATISTICS"
+    },
+    {
+      "name": "STR1GA",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_1_ga",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/LOVE/STATISTICS/STRENGHT"
+    },
+    {
+      "name": "STRADD",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stradd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "Start",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "AGI1",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agi_1",
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGI2",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agi_2",
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGI3",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agi_3",
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGI4",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agi_4",
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGI5",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agi_5",
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGI6",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agi_6",
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGIGA",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agiga",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/LOVE/STATISTICS/AGILITY"
+    },
+    {
+      "name": "AGIADD",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agiadd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "MAG1",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mag_1",
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAG2",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mag_2",
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAG3",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mag_3",
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAG4",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mag_4",
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAG5",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mag_5",
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAG6",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mag_6",
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAGACH",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magach",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/LOVE/STATISTICS/MAGIC"
+    },
+    {
+      "name": "MAGADD",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magadd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "RES1",
+      "type": "achievement",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "res_1",
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "RES2",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "res_2",
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "RES3",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "res_3",
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "RES4",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "res_4",
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "RES5",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "res_5",
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "RES6",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "res_6",
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "Overwrite",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overwrite",
+      "path": "~/StupidDebug item/OVERWRITE"
+    },
+    {
+      "name": "OVERWRITEGUI",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overwritegui",
+      "path": "~/StupidDebug item/OVERWRITE"
+    },
+    {
+      "name": "OverwriteRightclicked",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overwrite_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/StupidDebug item/OVERWRITE"
+    },
+    {
+      "name": "SETLOVE",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setlove",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/StupidDebug item/OVERWRITE"
+    },
+    {
+      "name": "SETEXP",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setexp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/StupidDebug item/OVERWRITE"
+    },
+    {
+      "name": "SETMAX",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setmax",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/StupidDebug item/OVERWRITE"
+    },
+    {
+      "name": "RESADD",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resadd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "CHAADD",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaadd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/Menu"
+    },
+    {
+      "name": "RESACH",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resach",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/LOVE/STATISTICS/RESISTANCE"
+    },
+    {
+      "name": "CHA1",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha_1",
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "CHA2",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha_2",
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "CHA3",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha_3",
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "CHA4",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha_4",
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "CHA5",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha_5",
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "CHA6",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cha_6",
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "CHAACH",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaach",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/LOVE/STATISTICS/CHARISMA"
+    },
+    {
+      "name": "EmptyGun",
+      "type": "rangeditem",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_gun",
+      "path": "~/Souls/JUSTICE"
+    },
+    {
+      "name": "StarterMenu",
+      "type": "gui",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starter_menu",
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "SoulLeft",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_left",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "SoulRight",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_right",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "PATIENCE",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patience",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "BRAVERY",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bravery",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "INTEGRITY",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "integrity",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "PERSEVERANCE",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perseverance",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "KINDNESS",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kindness",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "JUSTICE",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "DETERMINATION",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "determination",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "LIVE",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "live",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "NameGui",
+      "type": "gui",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_gui",
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "CONFIRM",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confirm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu"
+    },
+    {
+      "name": "BACK",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "APPEAR",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "appear",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "PIETRO",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pietro",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "BOB",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "LEON",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leon",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "IGNIS",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignis",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "VLAD",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vlad",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "ALVIS",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alvis",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "JONATHAN",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jonathan",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "GAL",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gal",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "LOFIER",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lofier",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    },
+    {
+      "name": "DAVI",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "davi",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/System/StarterMenu/NAMES"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "LOVE",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "NAME",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "EXP",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "STRENGHT",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "AGILITY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "RESISTANCE",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "INTELLIGENCE",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "CHARISMA",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "HP",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "POINTS",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "STATUSCHECKBOX",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "MAXEXP",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    },
+    {
+      "name": "ENEMYHP",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "STATUSDISTRIBUTION",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "SOULSHOW",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "NEXTEXP",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "LPTLUP",
+      "type": "string",
+      "scope": "world",
+      "value": "\"\""
+    },
+    {
+      "name": "SOUL",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "START",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "NAMEGOOD",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "loveup",
+      "files": [
+        "undertale-level-up-sound-effect-made-with-voicemod"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "shot",
+      "files": [
+        "mixkit-game-gun-shot-1662"
+      ],
+      "category": "neutral",
+      "subtitle": "Shooting"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.undery_take.descr": "...",
+      "advancements.mag_2.title": "MAG 2",
+      "advancements.mag_6.descr": "...",
+      "advancements.res_2.title": "RES 2",
+      "advancements.cha_1.descr": "...",
+      "advancements.agi_3.title": "AGI 3",
+      "advancements.str_3.descr": "...",
+      "key.underytaleneo.open_menu_keybind": "Open Menu",
+      "advancements.undery_take.title": "UnderyTale",
+      "advancements.res_2.descr": "...",
+      "advancements.str_3.title": "STR 3",
+      "advancements.mag_2.descr": "...",
+      "advancements.cha_5.descr": "...",
+      "advancements.res_6.descr": "...",
+      "advancements.res_6.title": "RES 6",
+      "advancements.str_6.title": "STR 6",
+      "advancements.mag_5.title": "MAG 5",
+      "advancements.cha_5.title": "CHA 4",
+      "advancements.agi_4.title": "AGI 4",
+      "advancements.cha_2.descr": "...",
+      "advancements.str_2.title": "STR 2",
+      "advancements.agi_6.descr": "...",
+      "advancements.str_4.descr": "...",
+      "advancements.str_6.descr": "...",
+      "advancements.res_3.descr": "...",
+      "advancements.mag_3.title": "MAG 3",
+      "advancements.agi_1.title": "AGI 1",
+      "subtitles.loveup": "",
+      "advancements.str_5.title": "STR 5",
+      "advancements.agi_3.descr": "...",
+      "advancements.mag_6.title": "MAG 5",
+      "advancements.res_5.title": "RES 5",
+      "item.underytaleneo.overwrite": "Overwrite",
+      "advancements.cha_6.descr": "...",
+      "advancements.mag_1.descr": "...",
+      "advancements.cha_4.title": "CHA 4",
+      "advancements.cha_1.title": "CHA 1",
+      "advancements.mag_4.descr": "...",
+      "subtitles.shot": "Shooting",
+      "item.underytaleneo.empty_gun": "Revólver Vazio",
+      "advancements.res_4.descr": "...",
+      "advancements.cha_6.title": "CHA 6",
+      "advancements.agi_5.title": "AGI 5",
+      "advancements.cha_3.descr": "...",
+      "advancements.mag_4.title": "MAG 4",
+      "advancements.res_1.descr": "...",
+      "advancements.str_1.descr": "...",
+      "advancements.res_4.title": "RES 4",
+      "advancements.cha_2.title": "CHA 2",
+      "advancements.str_1.title": "STR 1",
+      "advancements.agi_2.descr": "...",
+      "advancements.agi_5.descr": "...",
+      "advancements.agi_2.title": "AGI 2",
+      "advancements.res_1.title": "RES 1",
+      "advancements.mag_5.descr": "...",
+      "advancements.res_3.title": "RES 3",
+      "advancements.mag_3.descr": "...",
+      "advancements.str_4.title": "STR 4",
+      "advancements.cha_3.title": "CHA 3",
+      "advancements.str_2.descr": "...",
+      "advancements.agi_4.descr": "...",
+      "advancements.agi_6.title": "AGI 6",
+      "advancements.cha_4.descr": "...",
+      "advancements.agi_1.descr": "...",
+      "advancements.res_5.descr": "...",
+      "advancements.str_5.descr": "...",
+      "advancements.mag_1.title": "MAG 1"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "System",
+        "children": [
+          {
+            "name": "Menu",
+            "children": [
+              {
+                "name": "SoulMenu",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "StarterMenu",
+            "children": [
+              {
+                "name": "NAMES",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "LOVE",
+            "children": [
+              {
+                "name": "EXP",
+                "children": []
+              },
+              {
+                "name": "STATISTICS",
+                "children": [
+                  {
+                    "name": "STRENGHT",
+                    "children": [
+                      {
+                        "name": "STREFFECTS",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "AGILITY",
+                    "children": []
+                  },
+                  {
+                    "name": "MAGIC",
+                    "children": []
+                  },
+                  {
+                    "name": "RESISTANCE",
+                    "children": []
+                  },
+                  {
+                    "name": "CHARISMA",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Souls",
+        "children": [
+          {
+            "name": "PATIENCE",
+            "children": []
+          },
+          {
+            "name": "BRAVERY",
+            "children": []
+          },
+          {
+            "name": "INTEGRITY",
+            "children": []
+          },
+          {
+            "name": "PERSEVERANCE",
+            "children": []
+          },
+          {
+            "name": "KINDNESS",
+            "children": []
+          },
+          {
+            "name": "JUSTICE",
+            "children": [
+              {
+                "name": "EmptyGun",
+                "children": []
+              },
+              {
+                "name": "Justice",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "DETERMINATION",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "StupidDebug item",
+        "children": [
+          {
+            "name": "OVERWRITE",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "underytaleneo",
+    "modName": "UnderytaleNeo",
+    "version": "1.0.0",
+    "author": "usuario, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.underytaleneo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

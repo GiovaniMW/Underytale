@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_blocks"
+    },
+    "title": {
+      "translate": "advancements.mag_3.title"
+    },
+    "description": {
+      "translate": "advancements.mag_3.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "mag_3": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "underytaleneo:mag_2"
+}

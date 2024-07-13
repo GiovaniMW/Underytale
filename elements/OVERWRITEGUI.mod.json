@@ -1,0 +1,133 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "overwrite.png",
+          "use1Xscale": false,
+          "name": "overwrite.png",
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "lovesetup",
+          "x": 49,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "SET",
+          "onClick": {
+            "name": "SETLOVE"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "SET",
+          "x": 184,
+          "y": 28
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "exp",
+          "x": 49,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "SET",
+          "onClick": {
+            "name": "SETEXP"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "SET",
+          "x": 184,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "exp",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "exp",
+          "x": 12,
+          "y": 62
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "maxexp",
+          "x": 49,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "max exp",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "max exp",
+          "x": 8,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "SET",
+          "onClick": {
+            "name": "SETMAX"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "SET",
+          "x": 184,
+          "y": 91
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

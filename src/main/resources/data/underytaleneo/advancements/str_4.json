@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "advancements.str_4.title"
+    },
+    "description": {
+      "translate": "advancements.str_4.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "str_4": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "underytaleneo:str_3"
+}

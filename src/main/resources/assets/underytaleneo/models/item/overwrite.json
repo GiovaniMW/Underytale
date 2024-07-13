@@ -1,0 +1,8 @@
+{
+  "parent": "underytaleneo:custom/overwrited",
+  "textures": {
+    "0": "underytaleneo:blocks/overwritebacki",
+    "missing": "underytaleneo:blocks/overwritefront",
+    "particle": "underytaleneo:items/overwritemari"
+  }
+}

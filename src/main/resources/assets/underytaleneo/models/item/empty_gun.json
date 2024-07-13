@@ -1,0 +1,10 @@
+{
+  "parent": "underytaleneo:custom/empty_gun",
+  "textures": {
+    "0": "underytaleneo:blocks/marrom",
+    "1": "underytaleneo:blocks/cinza_escuro",
+    "2": "underytaleneo:blocks/cinza",
+    "3": "underytaleneo:blocks/preto",
+    "particle": "underytaleneo:items/99c7457e8b9a1ce1f22d8fdea64bc2a310fcad86_00-removebg-preview"
+  }
+}

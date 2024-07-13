@@ -1,0 +1,471 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NAME>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NAME>",
+          "x": 45,
+          "y": 18
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:LOVE>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:LOVE>",
+          "x": 58,
+          "y": 28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "menu.png",
+          "use1Xscale": true,
+          "name": "menu.png",
+          "x": 39,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:HP>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:HP>",
+          "x": 58,
+          "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_14.png",
+          "use1Xscale": true,
+          "name": "pixil-frame-0_14.png",
+          "x": 39,
+          "y": 62
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "name": "Status",
+          "x": 117,
+          "y": 64
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "name": "Soul",
+          "x": 117,
+          "y": 90
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "name": "Skills",
+          "x": 117,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_16.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "StatusShow"
+          },
+          "name": "pixil-frame-0_16.png",
+          "x": 149,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:CHARISMA>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatusShow2"
+          },
+          "name": "<VAR:CHARISMA>",
+          "x": 203,
+          "y": 109
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:INTELLIGENCE>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatusShow2"
+          },
+          "name": "<VAR:INTELLIGENCE>",
+          "x": 188,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:STRENGHT>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatusShow2"
+          },
+          "name": "<VAR:STRENGHT>",
+          "x": 208,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:RESISTANCE>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatusShow2"
+          },
+          "name": "<VAR:RESISTANCE>",
+          "x": 214,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:AGILITY>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatusShow2"
+          },
+          "name": "<VAR:AGILITY>",
+          "x": 201,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:POINTS>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatusShow2"
+          },
+          "name": "<VAR:POINTS>",
+          "x": 193,
+          "y": 154
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "isCheckedProcedure": {
+            "name": "StatusShow2"
+          },
+          "name": "DistributePoints",
+          "x": 407,
+          "y": 220
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "STRADD"
+          },
+          "displayCondition": {
+            "name": "StatusShow3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 383,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "MAGADD"
+          },
+          "displayCondition": {
+            "name": "StatusShow3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 383,
+          "y": 64
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "AGIADD"
+          },
+          "displayCondition": {
+            "name": "StatusShow3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 383,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "RESACH"
+          },
+          "displayCondition": {
+            "name": "StatusShow3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 383,
+          "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "CHAACH"
+          },
+          "displayCondition": {
+            "name": "StatusShow3"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 383,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strenght",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatutsShow4"
+          },
+          "name": "Strenght",
+          "x": 325,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Charisma",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatutsShow4"
+          },
+          "name": "Charisma",
+          "x": 325,
+          "y": 130
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Resistance",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatutsShow4"
+          },
+          "name": "Resistance",
+          "x": 325,
+          "y": 110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Agility",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatutsShow4"
+          },
+          "name": "Agility",
+          "x": 325,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Magic",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "StatutsShow4"
+          },
+          "name": "Magic",
+          "x": 325,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pixil-frame-0_17.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "SoulShow"
+          },
+          "name": "pixil-frame-0_17.png",
+          "x": 149,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NAME>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SoulShow2"
+          },
+          "name": "<VAR:NAME>",
+          "x": 182,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:LOVE>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SoulShow2"
+          },
+          "name": "<VAR:LOVE>",
+          "x": 174,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:EXP>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SoulShow2"
+          },
+          "name": "<VAR:EXP>",
+          "x": 247,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NEXTEXP>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SoulShow2"
+          },
+          "name": "<VAR:NEXTEXP>",
+          "x": 256,
+          "y": 94
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 13,
+      "sy": 4,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

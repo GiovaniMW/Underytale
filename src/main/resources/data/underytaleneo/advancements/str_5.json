@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "translate": "advancements.str_5.title"
+    },
+    "description": {
+      "translate": "advancements.str_5.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "str_5": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "underytaleneo:str_4"
+}

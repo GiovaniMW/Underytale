@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:raw_iron"
+    },
+    "title": {
+      "translate": "advancements.cha_2.title"
+    },
+    "description": {
+      "translate": "advancements.cha_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cha_2": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "underytaleneo:cha_1"
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "99c7457e8b9a1ce1f22d8fdea64bc2a310fcad86_00-removebg-preview",
+    "customModelName": "empty_gun:default",
+    "name": "Revólver Vazio",
+    "specialInfo": [
+      "Parece ter pertencido a alguém muito especial..."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.IRON_NUGGET"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:shot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 6.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 6,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.IRON_NUGGET"
+    },
+    "bulletModel": "ModelCustomModel",
+    "customBulletModelTexture": "cinza_escuro_-_copia.png"
+  }
+}

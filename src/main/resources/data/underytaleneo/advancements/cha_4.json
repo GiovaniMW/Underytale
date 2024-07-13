@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancements.cha_4.title"
+    },
+    "description": {
+      "translate": "advancements.cha_4.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cha_4": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "underytaleneo:cha_3"
+}

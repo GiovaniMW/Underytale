@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "advancements.res_2.title"
+    },
+    "description": {
+      "translate": "advancements.res_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "res_2": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "underytaleneo:res_1"
+}

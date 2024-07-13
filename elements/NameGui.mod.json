@@ -1,0 +1,377 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "menu_2.png",
+          "use1Xscale": false,
+          "name": "menu_2.png",
+          "x": 115,
+          "y": 18
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "VOLTAR",
+          "onClick": {
+            "name": "BACK"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "VOLTAR",
+          "x": 131,
+          "y": 186
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "PROCEDER",
+          "displayCondition": {
+            "name": "APPEAR"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "PROCEDER",
+          "x": 239,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NAME>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NAME>",
+          "x": 186,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Você tem certeza?",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "APPEAR"
+          },
+          "name": "Você tem certeza?",
+          "x": 167,
+          "y": 160
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Não finja que sou eu,",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PIETRO"
+          },
+          "name": "\"Não finja que sou eu,",
+          "x": 122,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "arrume outro nome.\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "PIETRO"
+          },
+          "name": "arrume outro nome.\"",
+          "x": 203,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Os 7 Bob Humanos ",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BOB"
+          },
+          "name": "Os 7 Bob Humanos ",
+          "x": 129,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "te impedem de fazer isto.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BOB"
+          },
+          "name": "te impedem de fazer isto.",
+          "x": 172,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Um nome bem popular, huh?",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LEON"
+          },
+          "name": "\"Um nome bem popular, huh?",
+          "x": 122,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " Você pode fazer melhor, parceiro.\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LEON"
+          },
+          "name": " Você pode fazer melhor, parceiro.\"",
+          "x": 125,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Até minha vó tem mais criatividade",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IGNIS"
+          },
+          "name": "\"Até minha vó tem mais criatividade",
+          "x": 122,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inventa outro ai, seu banana\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IGNIS"
+          },
+          "name": "Inventa outro ai, seu banana\"",
+          "x": 131,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Pelos meus cálculos, você...",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ALVIS"
+          },
+          "name": "\"Pelos meus cálculos, você...",
+          "x": 122,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "É muito burro para pensar num nome.\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ALVIS"
+          },
+          "name": "É muito burro para pensar num nome.\"",
+          "x": 126,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Ah cara, eu até deixaria",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "GAL"
+          },
+          "name": "\"Ah cara, eu até deixaria",
+          "x": 123,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "mas me disseram para te impedir. \"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "GAL"
+          },
+          "name": "mas me disseram para te impedir. \"",
+          "x": 127,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Esse é de alguém muito querido ",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LOFIER"
+          },
+          "name": "\"Esse é de alguém muito querido ",
+          "x": 122,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Escolha outro, parceiro.\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LOFIER"
+          },
+          "name": "Escolha outro, parceiro.\"",
+          "x": 136,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Ele não veio porque tá estudando.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JONATHAN"
+          },
+          "name": "\"Ele não veio porque tá estudando.",
+          "x": 123,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mas ele disse para não deixar\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "JONATHAN"
+          },
+          "name": "Mas ele disse para não deixar\"",
+          "x": 133,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Nos seus sonhos pirralho\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DAVI"
+          },
+          "name": "\"Nos seus sonhos pirralho\"",
+          "x": 124,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"HAHAHA, conta outra.\"",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "VLAD"
+          },
+          "name": "\"HAHAHA, conta outra.\"",
+          "x": 122,
+          "y": 72
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

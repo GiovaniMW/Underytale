@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "marrom",
+        "1": "cinza_escuro",
+        "2": "cinza",
+        "3": "preto"
+      },
+      "name": "default"
+    }
+  }
+}

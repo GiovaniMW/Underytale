@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "advancements.undery_take.title"
+    },
+    "description": {
+      "translate": "advancements.undery_take.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "undery_take": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

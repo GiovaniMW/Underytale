@@ -1,0 +1,21 @@
+{
+  "loveup": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "underytaleneo:undertale-level-up-sound-effect-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "shot": {
+    "category": "neutral",
+    "subtitle": "subtitles.shot",
+    "sounds": [
+      {
+        "name": "underytaleneo:mixkit-game-gun-shot-1662",
+        "stream": false
+      }
+    ]
+  }
+}
